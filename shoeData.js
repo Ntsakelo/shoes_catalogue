@@ -109,15 +109,15 @@ var shoeList = [
   },
   {
     id: 10,
-    category: "Men",
+    category: "Women",
     brand: "Superba",
     edition: "Superba trainers",
-    color: "White",
+    color: "Grey",
     size: 7,
     qty: 10,
     price: 300,
     image_url:
-      "https://images.pexels.com/photos/4429559/pexels-photo-4429559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1750045/pexels-photo-1750045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 11,
@@ -194,8 +194,8 @@ var shoeList = [
   {
     id: 17,
     category: "All",
-    brand: "Tommies",
-    edition: "Tommies flexies",
+    brand: "Tronies",
+    edition: "Tronies flexies",
     color: "Blue",
     size: 7,
     qty: 18,
@@ -218,8 +218,8 @@ var shoeList = [
   {
     id: 19,
     category: "Men",
-    brand: "Tommies",
-    edition: "Tommies flexies chillas",
+    brand: "Tronies",
+    edition: "Tronies flexies chillas",
     color: "Black and white",
     size: 9,
     qty: 18,
@@ -238,5 +238,17 @@ var shoeList = [
     price: 400,
     image_url:
       "https://images.pexels.com/photos/1161730/pexels-photo-1161730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    id: 21,
+    category: "Kids",
+    brand: "Baby json",
+    edition: "Baby json wear 2",
+    color: "Green",
+    size: 3,
+    qty: 18,
+    price: 300,
+    image_url:
+      "https://images.pexels.com/photos/47220/shoes-pregnancy-child-clothing-47220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
 ];

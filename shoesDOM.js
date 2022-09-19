@@ -118,6 +118,9 @@ function cartClickEvent() {
       items.forEach((product) => {
         if (product.id === Number(item.id)) {
           product.qty -= 1;
+          if (product.qty < 0) {
+            product.qty = 0;
+          }
           displayProducts();
         }
       });

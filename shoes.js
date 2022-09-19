@@ -116,7 +116,9 @@ function ShoesCatalogue(productList) {
   function cartItems(id) {
     list.find(function (item) {
       if (item.id === Number(id)) {
-        cartList.push(item);
+        if (item.qty > 0) {
+          cartList.push(item);
+        }
       }
     });
     return cartList;
